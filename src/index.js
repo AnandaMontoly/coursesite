@@ -9,6 +9,7 @@ import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Cal from './CalWithTips.js'
+import MessageAdd from './addMessage.js';
 
 class HomeText extends React.Component {
   constructor () {
@@ -17,6 +18,7 @@ class HomeText extends React.Component {
   render () {
     return (
       <div>
+        <MessageAdd />
         <h1>What is Intro to Intro?</h1>
         <p>
           Intro to Intro to Data Structures is a January bridge workshop series targeted at Smith College students who have
