@@ -9,6 +9,8 @@ import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Cal from './CalWithTips.js'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 class HomeText extends React.Component {
   constructor () {
@@ -205,5 +207,12 @@ class Page extends React.Component {
     )
   }
 }
-
-ReactDOM.render(<Page />, document.getElementById('root'));
+function HomePage = () => {
+  return (
+    <Page />
+  )
+}
+ReactDOM.render(
+    <Router>
+      <Route path='/' render={HomePage} />
+    </Router>, document.getElementById('root'));
