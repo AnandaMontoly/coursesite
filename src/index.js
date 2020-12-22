@@ -9,7 +9,6 @@ import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Cal from './CalWithTips.js'
-import MessageAdd from './addMessage.js';
 
 class HomeText extends React.Component {
   constructor () {
