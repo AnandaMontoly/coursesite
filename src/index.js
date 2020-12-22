@@ -207,11 +207,13 @@ class Page extends React.Component {
     )
   }
 }
-function HomePage = () => {
+
+const HomePage = () => {
   return (
     <Page />
-  )
-}
+  );
+};
+
 ReactDOM.render(
     <Router>
       <Route path='/' render={HomePage} />
