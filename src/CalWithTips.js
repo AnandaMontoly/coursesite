@@ -53,7 +53,7 @@ class CalTileContent extends React.Component {
     switch (this.props.date){
       case 2:
       case 6:
-        return <CalToolTip text="Welcome Class!" />
+        return <CalToolTip text="Welcome Class! Sets" />
         break;
       case 9:
         return <CalToolTip text="Extra Office Hours" />
@@ -63,15 +63,15 @@ class CalTileContent extends React.Component {
         break;
       case 16:
       case 20:
-        return <CalToolTip text="OOP in Java" />
+        return <CalToolTip text="Logic" />
         break;
       case 23:
       case 27:
-        return <CalToolTip text="Set Theory and Logic" />
+        return <CalToolTip text="Numbers" />
         break;
       case 30:
       case 3:
-        return <CalToolTip text="Data Structures" />
+        return <CalToolTip text="Command Line" />
         break;
         }
     return <p>fart</p>;
