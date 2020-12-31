@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-import Car from "./app.js";
 import './Site.scss';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -32,6 +31,10 @@ class HomeText extends React.Component {
           what <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" alt="Wikipedia article on Object Oriented Programming.">Object-Oriented Programming</a> entails is also recommended.
 
         </p>
+        <h1>Contact me</h1>
+        You can either email me at <a href="mailto:amontoly@smith.edu">amontoly@smith.edu</a> or reach out to me on discord! Here is the discord invite link: <a href="https://discord.gg/qcysGcqvrA">https://discord.gg/qcysGcqvrA</a>
+        
+
         <h1>What will the schedule be?</h1>
         <p>
         Workshops will be held on Saturday at 10 AM EST and Wednesdays at 2 PM EST starting on January 2nd. The Wednesday and Saturday sessions each week will cover the same
@@ -199,6 +202,10 @@ class Page extends React.Component {
   constructor () {
     super();
   }
+  componentDidMount(){
+    document.title = "Course Site"
+  }
+
   render () {
     return (<div style={{backgroundColor:"#fffffc"}}>
         <Header />
