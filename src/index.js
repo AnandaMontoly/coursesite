@@ -39,7 +39,7 @@ class HomeText extends React.Component {
         <p>
         Workshops will be held on Saturday at 10 AM EST and Wednesdays at 2 PM EST starting on January 2nd. The Wednesday and Saturday sessions each week will cover the same
         material, so feel free to attend either of them. For the second week of workshops, a speaker will be coming on January 13th so the corresponding Saturday
-        session will be extra office hours. You can join a Saturday class meeting with <a href="https://smith.zoom.us/j/98318277983">this link here</a>.
+        session will be extra office hours.<br /><br /> You can join a Saturday class meeting with <a href="https://smith.zoom.us/j/98318277983">this link here</a>.
         <br /><br />
         <Row>
           <Col xs={3}>
