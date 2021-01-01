@@ -51,6 +51,7 @@ class CalTileContent extends React.Component {
   }
   render() {
     switch (this.props.date){
+      
       case 2:
       case 6:
         return <CalToolTip text="Welcome Class! Sets" />
