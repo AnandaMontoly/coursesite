@@ -154,7 +154,7 @@ class Tabs extends React.Component {
                 <Nav.Link eventKey="home">Home</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="first">First Class</Nav.Link>
+                <Nav.Link eventKey="first">First Workshop</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link eventKey="supp">Resources</Nav.Link>
