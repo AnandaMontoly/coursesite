@@ -38,7 +38,7 @@ class HomeText extends React.Component {
         <h1>What will the schedule be?</h1>
         <p>
         Workshops will be held on Saturday at 10 AM EST and Wednesdays at 2 PM EST starting on January 2nd. The Wednesday and Saturday sessions each week will cover the same
-        material, so feel free to attend either of them. For the second week of workshops, a speaker will be coming on January 13th so the corresponding Saturday
+        material, so feel free to attend either of them. There's no need to attend both. For the second week of workshops, a speaker will be coming on January 13th so the corresponding Saturday
         session will be extra office hours.<br /><br /> You can join a Saturday class meeting with <a href="https://smith.zoom.us/j/98318277983">this link here</a>.
         Our 2 PM EST Wednesday meeting is linked <a href="https://smith.zoom.us/j/95784948992">here</a> and our Thursday 2 pm EST office hours are <a href="https://smith.zoom.us/j/93625535658">here.</a>
         <br /><br />
