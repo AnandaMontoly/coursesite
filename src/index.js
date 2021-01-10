@@ -40,7 +40,7 @@ class HomeText extends React.Component {
         Workshops will be held on Saturday at 10 AM EST and Wednesdays at 2 PM EST starting on January 2nd. The Wednesday and Saturday sessions each week will cover the same
         material, so feel free to attend either of them. There's no need to attend both. For the second week of workshops, a speaker will be coming on January 13th so the corresponding Saturday
         session will be extra office hours.<br /><br /> You can join a Saturday class meeting with <a href="https://smith.zoom.us/j/98318277983">this link here</a>.
-        Our 2 PM EST Wednesday meeting is linked <a href="https://smith.zoom.us/j/95784948992">here</a> and our Thursday 2 pm EST office hours are <a href="https://smith.zoom.us/j/93625535658">here.</a><br /><br />
+        Our 2 PM EST Wednesday meeting is linked <a href="https://smith.zoom.us/j/95784948992">here</a> and our Thursday 2 pm EST office hours are <a href="https://smith.zoom.us/j/93625535658">here.</a>Sunday office hours at 10 PM EST are held using <a href="https://smith.zoom.us/j/96991201918">this link!</a><br /><br />
         To sign up for the session with Google, please use <a href="http://goo.gle/2XjZJfs">this link before Tuesday, January 12th at 5 PM!</a>
         <br /><br />
         <Row>
