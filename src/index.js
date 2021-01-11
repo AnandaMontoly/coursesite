@@ -90,10 +90,10 @@ class SuppMaterial extends React.Component {
           <h3>Reducible</h3>
           <a href="https://www.youtube.com/channel/UCK8XIGR5kRidIw2fWqwyHRA/videos" alt="Reducible YouTube Channel">Reducible</a> is a YouTube channel dedicated to talking through data structures and algorithms concepts
           with clear graphics. For those audiovisual learners out there, I highly recommend his videos. Not all will be relevant to either these workshops or CSC 212 (Dynamic Programming, Fourier Transformations, etc)
-          but the rest are related to material that you will later go over.
+          but the rest are related to material that you will later go over.<br />
           <h3>CSC 212 Wiki</h3>
           This <a href="https://jjfiv.github.io/ds4j/Sorting2.html">wiki</a> was written by the CSC 212 professor last year for his class during the transition to virtual classes. They're an amazing source and
-          I highly recommend using them as a reference.
+          I highly recommend using them as a reference. A special thanks to John Foley IV at Middlebury College for this material!
         </p>
       </div>
     )
