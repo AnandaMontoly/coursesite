@@ -109,7 +109,7 @@ class GoogleText extends React.Component{
       We recommend browsing the Google Students Careers page for opportunities of interest, and turning on job alerts for your search so you receive an email each time an opportunity that falls within your search becomes available!<br /><br />
 
 
-      Browse opportunities and setup job alerts at: <a href="https://careers.google.com/students/?src=Online%2FTOPs%2FNA%20Tech%20University%20Email&utm_campaign=googlestudents-postevent&utm_medium=jobposting&utm_source=email">google.com/students.</a> <br /><br />
+      Browse opportunities and setup job alerts at: <b><a href="https://careers.google.com/students/?src=Online%2FTOPs%2FNA%20Tech%20University%20Email&utm_campaign=googlestudents-postevent&utm_medium=jobposting&utm_source=email">google.com/students.</a></b> <br /><br />
 
 
       **For more resources and tips, visit <b><a href="https://careersonair.withgoogle.com/?utm_medium=direct_message&utm_source=email&utm_campaign=coa-postevent&src=Online/TOPs/NA%20Tech%20University%20Email">Careers OnAir</a></b> for online video programming coming up, Google's <b><a href="https://techdevguide.withgoogle.com/">Tech Dev Guide</a>, and <a href="https://buildyourfuture.withgoogle.com/?utm_medium=jobposting&utm_source=email&utm_campaign=byf-postevent&src=Online/TOPs/NA%20Tech%20University%20Email">g.co/buildyourfuture.</a></b><br /><br />
