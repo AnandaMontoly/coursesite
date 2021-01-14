@@ -13,6 +13,10 @@ $a-tags: 'a, a:active, a:hover, a:visited';
   background-color: #fffffc;
 }
 
+h2 {
+  color: $primary;
+}
+
 .react-calendar__navigation {
   font-size: 20px;
   .react-calendar__navigation__label {

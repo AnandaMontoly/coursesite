@@ -90,11 +90,38 @@ class SuppMaterial extends React.Component {
           <h3>Reducible</h3>
           <a href="https://www.youtube.com/channel/UCK8XIGR5kRidIw2fWqwyHRA/videos" alt="Reducible YouTube Channel">Reducible</a> is a YouTube channel dedicated to talking through data structures and algorithms concepts
           with clear graphics. For those audiovisual learners out there, I highly recommend his videos. Not all will be relevant to either these workshops or CSC 212 (Dynamic Programming, Fourier Transformations, etc)
-          but the rest are related to material that you will later go over.<br />
+          but the rest are related to material that you will later go over.<br /><br />
           <h3>CSC 212 Wiki</h3>
           This <a href="https://jjfiv.github.io/ds4j/Sorting2.html">wiki</a> was written by the CSC 212 professor last year for his class during the transition to virtual classes. They're an amazing source and
           I highly recommend using them as a reference. A special thanks to John Foley IV at Middlebury College for this material!
         </p>
+      </div>
+    )
+  }
+}
+
+class GoogleText extends React.Component{
+  render (){
+    return (
+      <div>
+      <h3>Interested in Google opportunities and further resources?</h3>
+
+      We recommend browsing the Google Students Careers page for opportunities of interest, and turning on job alerts for your search so you receive an email each time an opportunity that falls within your search becomes available!<br /><br />
+
+
+      Browse opportunities and setup job alerts at: <a href="https://careers.google.com/students/?src=Online%2FTOPs%2FNA%20Tech%20University%20Email&utm_campaign=googlestudents-postevent&utm_medium=jobposting&utm_source=email">google.com/students.</a> <br /><br />
+
+
+      **For more resources and tips, visit <b><a href="https://careersonair.withgoogle.com/?utm_medium=direct_message&utm_source=email&utm_campaign=coa-postevent&src=Online/TOPs/NA%20Tech%20University%20Email">Careers OnAir</a></b> for online video programming coming up, Google's <b><a href="https://techdevguide.withgoogle.com/">Tech Dev Guide</a>, and <a href="https://buildyourfuture.withgoogle.com/?utm_medium=jobposting&utm_source=email&utm_campaign=byf-postevent&src=Online/TOPs/NA%20Tech%20University%20Email">g.co/buildyourfuture.</a></b><br /><br />
+
+
+      <p>Jump-start your career with Google Cloud!</p><br /><br />
+
+      The <b><a href="https://g.co/learncloud/student-benefits">higher education learning center</a></b> from Google Cloud provides students with 200 free Qwiklab training credits, discounts on professional certifications, and up to $1000 in cloud research credits. <b><a href="http://goo.gle/virtualswag">Claim your benefits!</a></b><br /><br />
+
+      Questions? Reach out to: <a href="cloudedusupport@google.com">cloudedusupport@google.com</a><br /><br />
+
+
       </div>
     )
   }
@@ -146,7 +173,6 @@ class AboutText extends React.Component {
   }
 }
 
-
 class Tabs extends React.Component {
   constructor () {
     super();
@@ -162,7 +188,10 @@ class Tabs extends React.Component {
                 <Nav.Link eventKey="home">Home</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="first">First Workshop</Nav.Link>
+                <Nav.Link eventKey="first">Sets Workshop</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="google">Google Workshop</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link eventKey="supp">Resources</Nav.Link>
@@ -179,6 +208,9 @@ class Tabs extends React.Component {
               </Tab.Pane>
               <Tab.Pane eventKey="first">
                 <ClassText />
+              </Tab.Pane>
+              <Tab.Pane eventKey="google">
+                <GoogleText />
               </Tab.Pane>
               <Tab.Pane eventKey="supp">
                 <SuppMaterial />
