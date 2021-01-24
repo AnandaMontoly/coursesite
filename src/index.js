@@ -127,6 +127,20 @@ class GoogleText extends React.Component{
   }
 }
 
+class NumbersPage extends React.Component {
+  render () {
+    return (
+      <div>
+      <h1>Numbers</h1>
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRra9nx6RuZXZ1T9hCfA-RlQzq-L0OiC6Scb0ygfYhFv0OYnuJdltifQDNMZ5Rzo1_kL_Ntjt0EfERY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      <h1>Zoom Recording</h1>
+      The link to the zoom recording is <a href="https://smith.zoom.us/rec/share/B0BnsUo1-2qDty7cFofQ1RNkSNSC1fdnX_46FGiJihF6Ql4W-Z7T7k8nj8BpE7Rt.p5nyvB-n2nt28y1n">here</a> and the passcode is X%VCW%7X.
+      <h1>Practice Activity</h1>
+      <b>Modulos</b><br />1<br />For any n positive integer (>0)  what is the value for n % n = ?<br />A. 1<br />B. 0<br />C. cannot say depends on n<br />D. n<br /><br />2<br />For any n positive integer (>0)  what is the value for n % 1 = ?<br />A. 1<br />B. 0<br />C. cannot say depends on n<br />D. n<br /><br />3<br />For any n positive integer (> 0) what is the value for n % (n + 1) = ?<br />A. 1<br />B. 0<br />C. cannot say depends on n<br />D. n<br /><br />4<br />For any n positive integer (> 0)  what is the value for (n + 1) % n  = ?<br />A. 1<br />B. 0<br />C. cannot say depends on n<br />D. n<br /><br />5<br />If n is an integer what is the value for Exp = n/(n  + 1) in integers?<br />A. 1<br />B. 0<br />C. cannot say depends on n<br />D. n<br /><br />6<br />What is displayed for 3/2 + 1 ?<br />A. 1 <br />B. 0 <br />C. 1 1/2   left as fraction<br />D. 2.5 <br /><br />7<br />What is the result 3 + 4 / 2 ?<br />A. 3.5  <br />B. 2 <br />C. 5   <br />D. 2.5<br /><br />8<br />the average of 3,5,7,9 is ?<br />A. 3+5+7+9/4  <br />B. (3+5+7)/2 +(9/2)  <br />C. (3+5+7+9)/4<br />D. (3+5)+(7+9)/4 <br /><br /><b>Bytes</b><br />1<br />1 Byte =    ?bits<br />10 bytes = ? bits<br />A. 80<br />B. 100<br />C. 10<br />D. 400<br /><br />2<br />1 KB = ? Bytes<br />A. 800<br />B. 1024<br />C. 1000<br />D. 4000<br /><br />3<br />1 KB = ? bits<br />A. 2^10 * 8<br />B. 2^10 <br />C. 10^3 * 8<br />D. 8000000<br /><br />4<br />25 KB = ? B<br />A. 2^10 * 8<br />B. 2^10 <br />C. 10^3 * 8<br />D. 8000000<br /><br />5<br />1MB = ?KBytes<br />A. 2^10 * 8<br />B. 2^10 <br />C. 10^3 * 8<br />D. 8000000<br /><br />6<br />1 MB = ? Bytes<br />A. 2^10 * 8<br />B. 2^20 <br />C. 10^6<br />D. 1000000<br /><br />7<br />0.5 MB = KB<br /><br />8<br />0.25 MB = KB<br /><br />9<br />1 GB =  Bytes<br />A. 2^20 * 8<br />B. 2^30 <br />C. 10^9<br />D. 1000000000<br /><br />10<br />1 Gb =  MBytes<br />A. 2^20<br />B. 2^10 <br />C. 10^3<br />D. 1000000<br /><br />12<br />0.5 Gb =  MBytes<br />A. 2^10 * 2<br />B. 2^9 <br />C. 10^9<br />D. 1000000000<br /><br /><b>Bases</b><br />1)10  (2)= 2^? (10)<br />2)  100 (2)= 2^? (10)<br />3)1000 (2)= 2^? (10)<br />4)1000 000(2)  =  2^ ?  (10)<br />5)10001 (2)  =2^ ?  (10)<br />6)10001 (2)  =2^ ?  (10)<br />7)10001 (2)  =2^ ?  (10)<br />8)10001 (2)  =2^ ?  (10)<br />9)11111(2) =   (10)<br />10)2^5   (10) = (2)      </div>
+    )
+  }
+}
+
 class ClassText extends React.Component {
   constructor (props) {
     super(props);
@@ -213,6 +227,9 @@ class Tabs extends React.Component {
                 <Nav.Link eventKey="logic">Logic Workshop</Nav.Link>
               </Nav.Item>
               <Nav.Item>
+                <Nav.Link eventKey="numbers">Numbers Workshop</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
                 <Nav.Link eventKey="supp">Resources</Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -241,6 +258,12 @@ class Tabs extends React.Component {
               <Tab.Pane eventKey="about">
                 <AboutText />
               </Tab.Pane>
+
+
+              <Tab.Pane eventKey="numbers">
+                <NumbersPage />
+              </Tab.Pane>
+
             </Tab.Content>
           </Col>
         </Row>
